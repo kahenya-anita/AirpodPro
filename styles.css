@@ -1,0 +1,24 @@
+html{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #000000;
+    height: 500vh;
+}
+
+canvas{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-height: 100vh;
+    max-width: 100vw;
+    transform: translate(-50%, -50%);
+}
